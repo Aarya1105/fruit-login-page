@@ -1,0 +1,138 @@
+.fruit-scene {
+  position: absolute;
+  bottom: 70px;
+  left: 10px;
+  width: 900px;
+  height: 420px;
+}
+
+.fruit {
+  position: absolute;
+  transition: filter 0.4s ease, opacity 0.4s ease, transform 0.4s ease;
+}
+
+.fruit img {
+  display: block;
+  user-select: none;
+  pointer-events: none;
+}
+
+.blurred {
+  filter: blur(6px) brightness(0.75);
+  opacity: 0.55;
+}
+
+.fruit-mango {
+  left: 0;
+  bottom: 70px;
+}
+
+.fruit-mango img {
+  width: 100px;
+}
+
+.fruit-pineapple {
+  left: 130px;
+  bottom: 20px;
+}
+
+.fruit-pineapple img {
+  width: 180px;
+}
+
+.fruit-apple {
+  left: 300px;
+  bottom: 0;
+  position: absolute;
+}
+
+.fruit-apple > img:first-child {
+  width: 330px;
+}
+
+.fruit-grape {
+  left: 610px;
+  bottom: 25px;
+}
+
+.fruit-grape img {
+  width: 170px;
+}
+
+.owl {
+  position: absolute;
+  width: 70px;
+  top: -35px;
+  left: 115px;
+  pointer-events: none;
+}
+
+/* Eye common */
+.eye-wrap {
+  position: absolute;
+}
+
+.eye {
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.pupil {
+  width: 10px;
+  height: 10px;
+  background: #111827;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -5px;
+  margin-top: -5px;
+  transition: transform 0.08s linear;
+}
+
+/* Apple eye positions */
+.apple-eye-left {
+  left: 110px;
+  top: 120px;
+}
+
+.apple-eye-right {
+  left: 183px;
+  top: 120px;
+}
+
+/* Pineapple eye positions */
+.pineapple-eye-left {
+  left: 65px;
+  top: 115px;
+}
+
+.pineapple-eye-right {
+  left: 95px;
+  top: 115px;
+}
+
+/* Grape eye positions */
+.grape-eye-left {
+  left: 55px;
+  top: 88px;
+}
+
+.grape-eye-right {
+  left: 95px;
+  top: 88px;
+}
+
+/* Mango eye positions */
+.mango-eye-left {
+  left: 25px;
+  top: 66px;
+}
+
+.mango-eye-right {
+  left: 56px;
+  top: 66px;
+}

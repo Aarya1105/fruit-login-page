@@ -1,0 +1,133 @@
+.login-card {
+  width: 100%;
+  max-width: 560px;
+  padding: 42px;
+  border-radius: 34px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.login-card h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.login-card p {
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 34px;
+  font-size: 1.05rem;
+}
+
+.form-group {
+  margin-bottom: 26px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.forgot {
+  color: #ff69b7;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.form-group input {
+  width: 100%;
+  height: 66px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(93, 92, 148, 0.2);
+  color: white;
+  font-size: 1.1rem;
+  padding: 0 20px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.form-group input::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.form-group input:focus {
+  border-color: rgba(255, 113, 188, 0.8);
+  box-shadow: 0 0 0 4px rgba(255, 113, 188, 0.15);
+}
+
+.error-text {
+  display: inline-block;
+  margin-top: 8px;
+  color: #ff77bd;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.password-wrap {
+  position: relative;
+}
+
+.peek-btn {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.remember-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 28px;
+}
+
+.remember-row input {
+  width: 18px;
+  height: 18px;
+  accent-color: #ff4ea3;
+}
+
+.continue-btn {
+  width: 100%;
+  height: 68px;
+  border: none;
+  border-radius: 22px;
+  background: linear-gradient(180deg, #ff4ea3, #d71a72);
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 14px 30px rgba(255, 50, 145, 0.25);
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 28px;
+  color: rgba(255, 255, 255, 0.62);
+  font-weight: 600;
+}
+
+.signup-text span {
+  color: #ff69b7;
+  font-weight: 800;
+}
